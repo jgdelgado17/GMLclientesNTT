@@ -1,30 +1,30 @@
-2022-10-09 22:12:52.137  INFO 2044 --- [main] c.c.cliente.ConsultasClienteTests        : Starting ConsultasClienteTests using Java 17.0.4.1 on ASUS-JD with PID 2044 (started by usuario in C:\Users\usuario\Desktop\JavaProjects\cliente)
-2022-10-09 22:12:52.140  INFO 2044 --- [main] c.c.cliente.ConsultasClienteTests        : No active profile set, falling back to 1 default profile: "default"
-2022-10-09 22:12:52.141 DEBUG 2044 --- [main] o.s.boot.SpringApplication               : Loading source class com.clientes.cliente.ClienteApplication
-2022-10-09 22:12:52.188 DEBUG 2044 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6df20ade
-2022-10-09 22:12:53.973  INFO 2044 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-10-09 22:12:53.997 DEBUG 2044 --- [main] o.s.b.a.AutoConfigurationPackages        : @EnableAutoConfiguration was declared on a class in the package 'com.clientes.cliente'. Automatic @Repository and @Entity scanning is enabled.
-2022-10-09 22:12:54.072  INFO 2044 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81 ms. Found 1 JPA repository interfaces.
-2022-10-09 22:12:55.360  INFO 2044 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-10-09 22:12:55.480  INFO 2044 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
-2022-10-09 22:12:55.897  INFO 2044 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-10-09 22:12:56.185  INFO 2044 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-10-09 22:12:56.526  INFO 2044 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-10-09 22:12:56.557  INFO 2044 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
-2022-10-09 22:12:57.891  INFO 2044 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-10-09 22:12:57.908  INFO 2044 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-10-09 22:12:59.503  WARN 2044 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-10-09 22:12:59.806 DEBUG 2044 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2022-10-09 22:13:00.174 DEBUG 2044 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 13 mappings in 'requestMappingHandlerMapping'
-2022-10-09 22:13:02.287 DEBUG 2044 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/**] in 'resourceHandlerMapping'
-2022-10-09 22:13:02.326 DEBUG 2044 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
-2022-10-09 22:13:02.436  WARN 2044 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2022-10-09 22:13:03.114 DEBUG 2044 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
-2022-10-09 22:13:03.119 DEBUG 2044 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: 
-2022-10-09 22:13:03.141  INFO 2044 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2022-10-09 22:13:03.142  INFO 2044 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2022-10-09 22:13:03.146  INFO 2044 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
-2022-10-09 22:13:03.244 DEBUG 2044 --- [main] ConditionEvaluationReportLoggingListener : 
+2022-10-09 22:25:40.663  INFO 6548 --- [main] c.c.cliente.ConsultasClienteTests        : Starting ConsultasClienteTests using Java 17.0.4.1 on ASUS-JD with PID 6548 (started by usuario in C:\Users\usuario\Desktop\JavaProjects\cliente)
+2022-10-09 22:25:40.667  INFO 6548 --- [main] c.c.cliente.ConsultasClienteTests        : No active profile set, falling back to 1 default profile: "default"
+2022-10-09 22:25:40.672 DEBUG 6548 --- [main] o.s.boot.SpringApplication               : Loading source class com.clientes.cliente.ClienteApplication
+2022-10-09 22:25:40.712 DEBUG 6548 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6df20ade
+2022-10-09 22:25:42.462  INFO 6548 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-09 22:25:42.487 DEBUG 6548 --- [main] o.s.b.a.AutoConfigurationPackages        : @EnableAutoConfiguration was declared on a class in the package 'com.clientes.cliente'. Automatic @Repository and @Entity scanning is enabled.
+2022-10-09 22:25:42.569  INFO 6548 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interfaces.
+2022-10-09 22:25:43.643  INFO 6548 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-09 22:25:43.750  INFO 6548 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-10-09 22:25:44.035  INFO 6548 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-09 22:25:44.272  INFO 6548 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-09 22:25:44.631  INFO 6548 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-09 22:25:44.670  INFO 6548 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2022-10-09 22:25:46.075  INFO 6548 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-09 22:25:46.092  INFO 6548 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-09 22:25:47.642  WARN 6548 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-09 22:25:47.942 DEBUG 6548 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-10-09 22:25:48.273 DEBUG 6548 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 13 mappings in 'requestMappingHandlerMapping'
+2022-10-09 22:25:49.993 DEBUG 6548 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/**] in 'resourceHandlerMapping'
+2022-10-09 22:25:50.054 DEBUG 6548 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-10-09 22:25:50.225  WARN 6548 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-10-09 22:25:50.986 DEBUG 6548 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-10-09 22:25:50.987 DEBUG 6548 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: 
+2022-10-09 22:25:51.006  INFO 6548 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-10-09 22:25:51.007  INFO 6548 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-10-09 22:25:51.010  INFO 6548 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2022-10-09 22:25:51.082 DEBUG 6548 --- [main] ConditionEvaluationReportLoggingListener : 
 
 
 ============================
@@ -1279,13 +1279,13 @@ Unconditional classes:
 
 
 
-2022-10-09 22:13:03.332  INFO 2044 --- [main] c.c.cliente.ConsultasClienteTests        : Started ConsultasClienteTests in 11.842 seconds (JVM running for 13.734)
-2022-10-09 22:13:03.395 DEBUG 2044 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
-2022-10-09 22:13:03.399 DEBUG 2044 --- [main] o.s.boot.devtools.restart.Restarter      : Creating new Restarter for thread Thread[main,5,main]
-2022-10-09 22:13:03.492 DEBUG 2044 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
-2022-10-09 22:13:04.104 DEBUG 2044 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.clientes.cliente.controller.ClienteController#create(Cliente)
-2022-10-09 22:13:04.186 DEBUG 2044 --- [main] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.clientes.cliente.model.Cliente@26]
-2022-10-09 22:13:04.341 DEBUG 2044 --- [main] org.hibernate.SQL                        : 
+2022-10-09 22:25:51.090  INFO 6548 --- [main] c.c.cliente.ConsultasClienteTests        : Started ConsultasClienteTests in 11.012 seconds (JVM running for 12.965)
+2022-10-09 22:25:51.093 DEBUG 6548 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2022-10-09 22:25:51.096 DEBUG 6548 --- [main] o.s.boot.devtools.restart.Restarter      : Creating new Restarter for thread Thread[main,5,main]
+2022-10-09 22:25:51.098 DEBUG 6548 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2022-10-09 22:25:51.889 DEBUG 6548 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.clientes.cliente.controller.ClienteController#create(Cliente)
+2022-10-09 22:25:52.019 DEBUG 6548 --- [main] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.clientes.cliente.model.Cliente@26]
+2022-10-09 22:25:52.215 DEBUG 6548 --- [main] org.hibernate.SQL                        : 
     select
         cliente0_.clie_id as clie_id1_0_0_,
         cliente0_.clie_cedula as clie_ced2_0_0_,
@@ -1301,17 +1301,17 @@ Unconditional classes:
         cliente cliente0_ 
     where
         cliente0_.clie_id=?
-2022-10-09 22:13:04.400 DEBUG 2044 --- [main] org.hibernate.SQL                        : 
+2022-10-09 22:25:52.306 DEBUG 6548 --- [main] org.hibernate.SQL                        : 
     insert 
     into
         cliente
         (clie_cedula, clie_ciudad_residencia, clie_direccion, clie_primer_apellido, clie_primer_nombre, clie_segundo_nombre, clie_segundopellido, clie_telefono, clie_tipo_documento) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?)
-2022-10-09 22:13:04.445 DEBUG 2044 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
-2022-10-09 22:13:04.448 DEBUG 2044 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.clientes.cliente.model.Cliente@26]
-2022-10-09 22:13:04.526 DEBUG 2044 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.clientes.cliente.controller.ClienteController#findByCedula(Integer, String)
-2022-10-09 22:13:04.707 DEBUG 2044 --- [main] org.hibernate.SQL                        : 
+2022-10-09 22:25:52.357 DEBUG 6548 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-09 22:25:52.358 DEBUG 6548 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.clientes.cliente.model.Cliente@26]
+2022-10-09 22:25:52.430 DEBUG 6548 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.clientes.cliente.controller.ClienteController#findByCedula(Integer, String)
+2022-10-09 22:25:52.692 DEBUG 6548 --- [main] org.hibernate.SQL                        : 
     select
         cliente0_.clie_id as clie_id1_0_,
         cliente0_.clie_cedula as clie_ced2_0_,
@@ -1327,10 +1327,10 @@ Unconditional classes:
         cliente cliente0_ 
     where
         cliente0_.clie_cedula=?
-2022-10-09 22:13:04.737 DEBUG 2044 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
-2022-10-09 22:13:04.738 DEBUG 2044 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.clientes.cliente.model.Cliente@1f]
-2022-10-09 22:13:04.767 DEBUG 2044 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.clientes.cliente.controller.ClienteController#findByCedula(Integer, String)
-2022-10-09 22:13:04.771 DEBUG 2044 --- [main] org.hibernate.SQL                        : 
+2022-10-09 22:25:52.711 DEBUG 6548 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-09 22:25:52.712 DEBUG 6548 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.clientes.cliente.model.Cliente@1f]
+2022-10-09 22:25:52.761 DEBUG 6548 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.clientes.cliente.controller.ClienteController#findByCedula(Integer, String)
+2022-10-09 22:25:52.763 DEBUG 6548 --- [main] org.hibernate.SQL                        : 
     select
         cliente0_.clie_id as clie_id1_0_,
         cliente0_.clie_cedula as clie_ced2_0_,
@@ -1346,15 +1346,15 @@ Unconditional classes:
         cliente cliente0_ 
     where
         cliente0_.clie_cedula=?
-2022-10-09 22:13:04.776 DEBUG 2044 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.clientes.cliente.exceptio.ResponseExceptionHandler#manejarTodasExcepciones(Exception)
-2022-10-09 22:13:04.782 DEBUG 2044 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
-2022-10-09 22:13:04.782 DEBUG 2044 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.clientes.cliente.exceptio.ExceptionResponse@6e818345]
-2022-10-09 22:13:04.789 DEBUG 2044 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.util.NoSuchElementException: No value present]
-2022-10-09 22:13:04.817 DEBUG 2044 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.clientes.cliente.controller.ClienteController#findByCedula(Integer, String)
-2022-10-09 22:13:04.821 DEBUG 2044 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
-2022-10-09 22:13:04.822 DEBUG 2044 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
-2022-10-09 22:13:04.848 DEBUG 2044 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.clientes.cliente.controller.ClienteController#findById(Integer)
-2022-10-09 22:13:04.879 DEBUG 2044 --- [main] org.hibernate.SQL                        : 
+2022-10-09 22:25:52.768 DEBUG 6548 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.clientes.cliente.exceptio.ResponseExceptionHandler#manejarTodasExcepciones(Exception)
+2022-10-09 22:25:52.775 DEBUG 6548 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-09 22:25:52.775 DEBUG 6548 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.clientes.cliente.exceptio.ExceptionResponse@149ef64a]
+2022-10-09 22:25:52.781 DEBUG 6548 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.util.NoSuchElementException: No value present]
+2022-10-09 22:25:52.805 DEBUG 6548 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.clientes.cliente.controller.ClienteController#findByCedula(Integer, String)
+2022-10-09 22:25:52.807 DEBUG 6548 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-09 22:25:52.808 DEBUG 6548 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
+2022-10-09 22:25:52.832 DEBUG 6548 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.clientes.cliente.controller.ClienteController#findById(Integer)
+2022-10-09 22:25:52.850 DEBUG 6548 --- [main] org.hibernate.SQL                        : 
     select
         cliente0_.clie_id as clie_id1_0_0_,
         cliente0_.clie_cedula as clie_ced2_0_0_,
@@ -1370,10 +1370,10 @@ Unconditional classes:
         cliente cliente0_ 
     where
         cliente0_.clie_id=?
-2022-10-09 22:13:04.893 DEBUG 2044 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
-2022-10-09 22:13:04.893 DEBUG 2044 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
-2022-10-09 22:13:04.907 DEBUG 2044 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.clientes.cliente.controller.ClienteController#findByCedula2(Integer)
-2022-10-09 22:13:04.909 DEBUG 2044 --- [main] org.hibernate.SQL                        : 
+2022-10-09 22:25:52.876 DEBUG 6548 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-09 22:25:52.877 DEBUG 6548 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
+2022-10-09 22:25:52.913 DEBUG 6548 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.clientes.cliente.controller.ClienteController#findByCedula2(Integer)
+2022-10-09 22:25:52.921 DEBUG 6548 --- [main] org.hibernate.SQL                        : 
     select
         cliente0_.clie_id as clie_id1_0_,
         cliente0_.clie_cedula as clie_ced2_0_,
@@ -1389,10 +1389,10 @@ Unconditional classes:
         cliente cliente0_ 
     where
         cliente0_.clie_cedula=?
-2022-10-09 22:13:04.912 DEBUG 2044 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
-2022-10-09 22:13:04.913 DEBUG 2044 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.clientes.cliente.model.Cliente@26]
-2022-10-09 22:13:04.977 DEBUG 2044 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.clientes.cliente.controller.ClienteController#delete(Integer)
-2022-10-09 22:13:04.980 DEBUG 2044 --- [main] org.hibernate.SQL                        : 
+2022-10-09 22:25:52.928 DEBUG 6548 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-09 22:25:52.933 DEBUG 6548 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.clientes.cliente.model.Cliente@26]
+2022-10-09 22:25:52.989 DEBUG 6548 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.clientes.cliente.controller.ClienteController#delete(Integer)
+2022-10-09 22:25:52.992 DEBUG 6548 --- [main] org.hibernate.SQL                        : 
     select
         cliente0_.clie_id as clie_id1_0_0_,
         cliente0_.clie_cedula as clie_ced2_0_0_,
@@ -1408,15 +1408,15 @@ Unconditional classes:
         cliente cliente0_ 
     where
         cliente0_.clie_id=?
-2022-10-09 22:13:05.008 DEBUG 2044 --- [main] org.hibernate.SQL                        : 
+2022-10-09 22:25:53.014 DEBUG 6548 --- [main] org.hibernate.SQL                        : 
     delete 
     from
         cliente 
     where
         clie_id=?
-2022-10-09 22:13:05.015 DEBUG 2044 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
-2022-10-09 22:13:05.015 DEBUG 2044 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.clientes.cliente.model.Cliente@26]
-2022-10-09 22:13:05.030 DEBUG 2044 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@6df20ade, started on Sun Oct 09 22:12:52 COT 2022
-2022-10-09 22:13:05.037  INFO 2044 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-10-09 22:13:05.041  INFO 2044 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-10-09 22:13:05.047  INFO 2044 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-09 22:25:53.021 DEBUG 6548 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-09 22:25:53.022 DEBUG 6548 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.clientes.cliente.model.Cliente@26]
+2022-10-09 22:25:53.041 DEBUG 6548 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@6df20ade, started on Sun Oct 09 22:25:40 COT 2022
+2022-10-09 22:25:53.050  INFO 6548 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-09 22:25:53.057  INFO 6548 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-09 22:25:53.088  INFO 6548 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
